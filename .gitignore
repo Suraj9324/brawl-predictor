@@ -1,0 +1,35 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Model artifacts
+model/artifacts/*.joblib
+model/artifacts/*.json
+!model/artifacts/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (frontend)
+web/node_modules/
+web/dist/
+
+# Data
+*.csv
+*.parquet
+
+# Notebooks
+notebooks/.ipynb_checkpoints/
